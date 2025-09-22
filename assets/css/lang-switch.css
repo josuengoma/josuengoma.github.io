@@ -1,0 +1,18 @@
+.lang-switch-btn {
+  border-radius: 2rem !important;
+  font-weight: 600;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: background 0.2s, color 0.2s;
+}
+.lang-switch-btn:focus, .lang-switch-btn.active {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+}
+#language-switcher {
+  background: rgba(255,255,255,0.95);
+  border-radius: 2rem;
+  padding: 0.3em 0.7em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
