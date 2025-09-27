@@ -1,4 +1,4 @@
-  // Portfolio 1
+// Portfolio 1
 (function () {
   "use strict";
 
@@ -304,7 +304,7 @@
       aboutExpLabel: "Expérience:",
       aboutExpValue: "6 ans",
       aboutSiteLabel: "Site web:",
-      aboutSiteValue: "www.ngomajosue-ls.com",
+      aboutSiteValue: "josuengoma.github.io",
       aboutPhoneLabel: "Téléphone:",
       aboutPhoneValue: "+243 97 23 15 704",
       aboutCityLabel: "Ville:",
@@ -330,7 +330,7 @@
       backendTitle: "⚡ Backend & APIs",
       devopsTitle: "🚀 Performance & DevOps",
       resumeTitle: "Parcours",
-      resumeDesc: "Mon cursus acaemique, scolaire et Parcours professionnel",
+      resumeDesc: "Mon cursus academique, scolaire et Parcours professionnel",
       educationTitle: "Education",
       expTitle: "Expérience Professionelle",
       portfolioTitle: "Portfolio",
@@ -440,7 +440,7 @@
       aboutExpLabel: "Experience:",
       aboutExpValue: "6 years",
       aboutSiteLabel: "Website:",
-      aboutSiteValue: "www.ngomajosue-ls.com",
+      aboutSiteValue: "josuengoma.github.io",
       aboutPhoneLabel: "Phone:",
       aboutPhoneValue: "+243 97 23 15 704",
       aboutCityLabel: "City:",
@@ -482,53 +482,53 @@
       service4Title: "DevOps",
       service4Desc: "I automate deployments for continuous and reliable delivery",
       footerName: "Josué Ngoma Le surmesure",
-  footerJob: "Backend Software Engineer .",
+      footerJob: "Backend Software Engineer .",
 
-  // Diplomas
-  diplomaMaster: "Master in Information Systems Design (CSI) / BAC + 5",
-  diplomaMasterYears: "2021 - 2023",
-  diplomaMasterSchool: "National Pedagogical University of Kinshasa",
-  diplomaLicence: "Bachelor in Mathematics - Computer Science / BAC + 3",
-  diplomaLicenceYears: "2018 - 2021",
-  diplomaLicenceSchool: "National Pedagogical University of Kinshasa",
-  diplomaBac: "Baccalaureate / Math-Physics (Series C)",
-  diplomaBacYears: "2017 - 2018",
-  diplomaBacSchool: "Chaminade High School",
+      // Diplomas
+      diplomaMaster: "Master in Information Systems Design (CSI) / BAC + 5",
+      diplomaMasterYears: "2021 - 2023",
+      diplomaMasterSchool: "National Pedagogical University of Kinshasa",
+      diplomaLicence: "Bachelor in Mathematics - Computer Science / BAC + 3",
+      diplomaLicenceYears: "2018 - 2021",
+      diplomaLicenceSchool: "National Pedagogical University of Kinshasa",
+      diplomaBac: "Baccalaureate / Math-Physics (Series C)",
+      diplomaBacYears: "2017 - 2018",
+      diplomaBacSchool: "Chaminade High School",
 
-  // Experiences
-  exp1Title: "Consultant / Surveyor",
-  exp1Years: "2024 - 2025",
-  exp1Company: "VSI Africa ",
-  exp1Li1: "Surveyor on the KIN-ELENDA project of Regiso-sarl.",
-  exp1Li2: "Census of active, inactive and potential subscribers.",
-  exp1Li3: "Negotiation and reconnection of inactive subscribers and potential clients",
+      // Experiences
+      exp1Title: "Consultant / Surveyor",
+      exp1Years: "2024 - 2025",
+      exp1Company: "VSI Africa ",
+      exp1Li1: "Surveyor on the KIN-ELENDA project of Regiso-sarl.",
+      exp1Li2: "Census of active, inactive and potential subscribers.",
+      exp1Li3: "Negotiation and reconnection of inactive subscribers and potential clients",
 
-  exp2Title: "Web Developer ",
-  exp2Years: "2023 - 2024",
-  exp2Company: "LabXTech",
-  exp2Li1: "Development and maintenance of complete web applications using front-end and back-end technologies",
-  exp2Li2: "Participation in the design of software architecture and implementation of optimized solutions",
-  exp2Li3: "Head of the \"Web Development\" department",
+      exp2Title: "Web Developer ",
+      exp2Years: "2023 - 2024",
+      exp2Company: "LabXTech",
+      exp2Li1: "Development and maintenance of complete web applications using front-end and back-end technologies",
+      exp2Li2: "Participation in the design of software architecture and implementation of optimized solutions",
+      exp2Li3: "Head of the \"Web Development\" department",
 
-  exp3Title: "Consultant / Fullstack Web Developer",
-  exp3Years: "Feb - Dec 2025",
-  exp3Company: "NAZA Service",
-  exp3Li1: "Design and implementation of customized web solutions for clients.",
-  exp3Li2: "Analysis of technical and functional requirements to ensure deliverables compliance.",
+      exp3Title: "Consultant / Fullstack Web Developer",
+      exp3Years: "Feb - Dec 2025",
+      exp3Company: "NAZA Service",
+      exp3Li1: "Design and implementation of customized web solutions for clients.",
+      exp3Li2: "Analysis of technical and functional requirements to ensure deliverables compliance.",
 
-  exp4Title: "Web Developer Intern",
-  exp4Years: "Feb - Aug 2023",
-  exp4Company: "Orange Digital Center",
-  exp4Li1: "Participation in team development projects.",
-  exp4Li2: "Learning and applying coding best practices.",
-  exp4Li3: "Recommended and consulted with clients on the most appropriate graphic design",
-  exp4Li4: "Contributed to the creation of web and mobile application prototypes under the supervision of senior developers.",
+      exp4Title: "Web Developer Intern",
+      exp4Years: "Feb - Aug 2023",
+      exp4Company: "Orange Digital Center",
+      exp4Li1: "Participation in team development projects.",
+      exp4Li2: "Learning and applying coding best practices.",
+      exp4Li3: "Recommended and consulted with clients on the most appropriate graphic design",
+      exp4Li4: "Contributed to the creation of web and mobile application prototypes under the supervision of senior developers.",
 
-  exp5Title: "Web Developer & Trainer",
-  exp5Years: "2020 - Present",
-  exp5Company: "JOScenter",
-  exp5Li1: "Design and delivery of web development training for learner groups.",
-  exp5Li2: "Development of course materials and practical exercises for programming languages taught in the training."
+      exp5Title: "Web Developer & Trainer",
+      exp5Years: "2020 - Present",
+      exp5Company: "JOScenter",
+      exp5Li1: "Design and delivery of web development training for learner groups.",
+      exp5Li2: "Development of course materials and practical exercises for programming languages taught in the training."
     }
   };
 
@@ -540,112 +540,112 @@
       const year = new Date().getFullYear();
       copyright.innerHTML = year + '. Josue Ngoma Le surmesure | ' + translations[lang].copyright;
     }
-  // Portfolio section
-  const portfolio1Title = document.getElementById('portfolio1-title');
-  if (portfolio1Title) portfolio1Title.textContent = translations[lang].portfolio1Title;
-  const portfolio1Desc = document.getElementById('portfolio1-desc');
-  if (portfolio1Desc) portfolio1Desc.textContent = translations[lang].portfolio1Desc;
-  const portfolio1IndicTitle = document.getElementById('portfolio1-indic-title');
-  if (portfolio1IndicTitle) portfolio1IndicTitle.textContent = translations[lang].portfolio1IndicTitle;
-  const portfolio1Perf = document.getElementById('portfolio1-perf');
-  if (portfolio1Perf) portfolio1Perf.textContent = translations[lang].portfolio1Perf;
-  const portfolio1Access = document.getElementById('portfolio1-access');
-  if (portfolio1Access) portfolio1Access.textContent = translations[lang].portfolio1Access;
-  const portfolio1Seo = document.getElementById('portfolio1-seo');
-  if (portfolio1Seo) portfolio1Seo.textContent = translations[lang].portfolio1Seo;
-  const portfolio1TechTitle = document.getElementById('portfolio1-tech-title');
-  if (portfolio1TechTitle) portfolio1TechTitle.textContent = translations[lang].portfolio1TechTitle;
-  const portfolio1Li1 = document.getElementById('portfolio1-li1');
-  if (portfolio1Li1) portfolio1Li1.textContent = translations[lang].portfolio1Li1;
-  const portfolio1Li2 = document.getElementById('portfolio1-li2');
-  if (portfolio1Li2) portfolio1Li2.textContent = translations[lang].portfolio1Li2;
-  const portfolio1Li3 = document.getElementById('portfolio1-li3');
-  if (portfolio1Li3) portfolio1Li3.textContent = translations[lang].portfolio1Li3;
-  const portfolio1Li4 = document.getElementById('portfolio1-li4');
-  if (portfolio1Li4) portfolio1Li4.textContent = translations[lang].portfolio1Li4;
-  const portfolio1Li5 = document.getElementById('portfolio1-li5');
-  if (portfolio1Li5) portfolio1Li5.innerHTML = translations[lang].portfolio1Li5 + '<i class="bx bx-link"></i> : <a href="https://github.com/josuengoma/joschool" title="Visiter l\'application" target="_blank" rel="noopener" id="portfolio1-link">' + translations[lang].portfolio1Link + '</a>';
+    // Portfolio section
+    const portfolio1Title = document.getElementById('portfolio1-title');
+    if (portfolio1Title) portfolio1Title.textContent = translations[lang].portfolio1Title;
+    const portfolio1Desc = document.getElementById('portfolio1-desc');
+    if (portfolio1Desc) portfolio1Desc.textContent = translations[lang].portfolio1Desc;
+    const portfolio1IndicTitle = document.getElementById('portfolio1-indic-title');
+    if (portfolio1IndicTitle) portfolio1IndicTitle.textContent = translations[lang].portfolio1IndicTitle;
+    const portfolio1Perf = document.getElementById('portfolio1-perf');
+    if (portfolio1Perf) portfolio1Perf.textContent = translations[lang].portfolio1Perf;
+    const portfolio1Access = document.getElementById('portfolio1-access');
+    if (portfolio1Access) portfolio1Access.textContent = translations[lang].portfolio1Access;
+    const portfolio1Seo = document.getElementById('portfolio1-seo');
+    if (portfolio1Seo) portfolio1Seo.textContent = translations[lang].portfolio1Seo;
+    const portfolio1TechTitle = document.getElementById('portfolio1-tech-title');
+    if (portfolio1TechTitle) portfolio1TechTitle.textContent = translations[lang].portfolio1TechTitle;
+    const portfolio1Li1 = document.getElementById('portfolio1-li1');
+    if (portfolio1Li1) portfolio1Li1.textContent = translations[lang].portfolio1Li1;
+    const portfolio1Li2 = document.getElementById('portfolio1-li2');
+    if (portfolio1Li2) portfolio1Li2.textContent = translations[lang].portfolio1Li2;
+    const portfolio1Li3 = document.getElementById('portfolio1-li3');
+    if (portfolio1Li3) portfolio1Li3.textContent = translations[lang].portfolio1Li3;
+    const portfolio1Li4 = document.getElementById('portfolio1-li4');
+    if (portfolio1Li4) portfolio1Li4.textContent = translations[lang].portfolio1Li4;
+    const portfolio1Li5 = document.getElementById('portfolio1-li5');
+    if (portfolio1Li5) portfolio1Li5.innerHTML = translations[lang].portfolio1Li5 + '<i class="bx bx-link"></i> : <a href="https://github.com/josuengoma/joschool" title="Visiter l\'application" target="_blank" rel="noopener" id="portfolio1-link">' + translations[lang].portfolio1Link + '</a>';
 
-  const portfolio2Title = document.getElementById('portfolio2-title');
-  if (portfolio2Title) portfolio2Title.textContent = translations[lang].portfolio2Title;
-  const portfolio2Desc = document.getElementById('portfolio2-desc');
-  if (portfolio2Desc) portfolio2Desc.textContent = translations[lang].portfolio2Desc;
-  const portfolio2IndicTitle = document.getElementById('portfolio2-indic-title');
-  if (portfolio2IndicTitle) portfolio2IndicTitle.textContent = translations[lang].portfolio2IndicTitle;
-  const portfolio2Perf = document.getElementById('portfolio2-perf');
-  if (portfolio2Perf) portfolio2Perf.textContent = translations[lang].portfolio2Perf;
-  const portfolio2Access = document.getElementById('portfolio2-access');
-  if (portfolio2Access) portfolio2Access.textContent = translations[lang].portfolio2Access;
-  const portfolio2Seo = document.getElementById('portfolio2-seo');
-  if (portfolio2Seo) portfolio2Seo.textContent = translations[lang].portfolio2Seo;
-  const portfolio2TechTitle = document.getElementById('portfolio2-tech-title');
-  if (portfolio2TechTitle) portfolio2TechTitle.textContent = translations[lang].portfolio2TechTitle;
-  const portfolio2Li1 = document.getElementById('portfolio2-li1');
-  if (portfolio2Li1) portfolio2Li1.textContent = translations[lang].portfolio2Li1;
-  const portfolio2Li2 = document.getElementById('portfolio2-li2');
-  if (portfolio2Li2) portfolio2Li2.textContent = translations[lang].portfolio2Li2;
-  const portfolio2Li3 = document.getElementById('portfolio2-li3');
-  if (portfolio2Li3) portfolio2Li3.textContent = translations[lang].portfolio2Li3;
-  const portfolio2Li4 = document.getElementById('portfolio2-li4');
-  if (portfolio2Li4) portfolio2Li4.textContent = translations[lang].portfolio2Li4;
+    const portfolio2Title = document.getElementById('portfolio2-title');
+    if (portfolio2Title) portfolio2Title.textContent = translations[lang].portfolio2Title;
+    const portfolio2Desc = document.getElementById('portfolio2-desc');
+    if (portfolio2Desc) portfolio2Desc.textContent = translations[lang].portfolio2Desc;
+    const portfolio2IndicTitle = document.getElementById('portfolio2-indic-title');
+    if (portfolio2IndicTitle) portfolio2IndicTitle.textContent = translations[lang].portfolio2IndicTitle;
+    const portfolio2Perf = document.getElementById('portfolio2-perf');
+    if (portfolio2Perf) portfolio2Perf.textContent = translations[lang].portfolio2Perf;
+    const portfolio2Access = document.getElementById('portfolio2-access');
+    if (portfolio2Access) portfolio2Access.textContent = translations[lang].portfolio2Access;
+    const portfolio2Seo = document.getElementById('portfolio2-seo');
+    if (portfolio2Seo) portfolio2Seo.textContent = translations[lang].portfolio2Seo;
+    const portfolio2TechTitle = document.getElementById('portfolio2-tech-title');
+    if (portfolio2TechTitle) portfolio2TechTitle.textContent = translations[lang].portfolio2TechTitle;
+    const portfolio2Li1 = document.getElementById('portfolio2-li1');
+    if (portfolio2Li1) portfolio2Li1.textContent = translations[lang].portfolio2Li1;
+    const portfolio2Li2 = document.getElementById('portfolio2-li2');
+    if (portfolio2Li2) portfolio2Li2.textContent = translations[lang].portfolio2Li2;
+    const portfolio2Li3 = document.getElementById('portfolio2-li3');
+    if (portfolio2Li3) portfolio2Li3.textContent = translations[lang].portfolio2Li3;
+    const portfolio2Li4 = document.getElementById('portfolio2-li4');
+    if (portfolio2Li4) portfolio2Li4.textContent = translations[lang].portfolio2Li4;
 
-  const portfolio3Title = document.getElementById('portfolio3-title');
-  if (portfolio3Title) portfolio3Title.textContent = translations[lang].portfolio3Title;
-  const portfolio3Desc = document.getElementById('portfolio3-desc');
-  if (portfolio3Desc) portfolio3Desc.textContent = translations[lang].portfolio3Desc;
-  const portfolio3ObjTitle = document.getElementById('portfolio3-obj-title');
-  if (portfolio3ObjTitle) portfolio3ObjTitle.textContent = translations[lang].portfolio3ObjTitle;
-  const portfolio3Practice = document.getElementById('portfolio3-practice');
-  if (portfolio3Practice) portfolio3Practice.textContent = translations[lang].portfolio3Practice;
-  const portfolio3Pedago = document.getElementById('portfolio3-pedago');
-  if (portfolio3Pedago) portfolio3Pedago.textContent = translations[lang].portfolio3Pedago;
-  const portfolio3Func = document.getElementById('portfolio3-func');
-  if (portfolio3Func) portfolio3Func.textContent = translations[lang].portfolio3Func;
-  const portfolio3TechTitle = document.getElementById('portfolio3-tech-title');
-  if (portfolio3TechTitle) portfolio3TechTitle.textContent = translations[lang].portfolio3TechTitle;
-  const portfolio3Li1 = document.getElementById('portfolio3-li1');
-  if (portfolio3Li1) portfolio3Li1.textContent = translations[lang].portfolio3Li1;
-  const portfolio3Li2 = document.getElementById('portfolio3-li2');
-  if (portfolio3Li2) portfolio3Li2.textContent = translations[lang].portfolio3Li2;
-  const portfolio3Li3 = document.getElementById('portfolio3-li3');
-  if (portfolio3Li3) portfolio3Li3.textContent = translations[lang].portfolio3Li3;
-  const portfolio3Li4 = document.getElementById('portfolio3-li4');
-  if (portfolio3Li4) portfolio3Li4.textContent = translations[lang].portfolio3Li4;
-  const portfolio3Li5 = document.getElementById('portfolio3-li5');
-  if (portfolio3Li5) portfolio3Li5.innerHTML = translations[lang].portfolio3Li5 + '<i class="bx bx-link"></i> : <a href="https://github.com/josuengoma/joschool" class="portfolio-details-lightbox" data-glightbox="type: external" title="Visiter le dépot github" target="_blank" rel="noopener" id="portfolio3-link">' + translations[lang].portfolio3Link + '</a>';
-  // About section details (labels and values)
-  const aboutExpLabel = document.getElementById('about-exp-label');
-  if (aboutExpLabel) aboutExpLabel.textContent = translations[lang].aboutExpLabel;
-  const aboutExpValue = document.getElementById('about-exp-value');
-  if (aboutExpValue) aboutExpValue.textContent = translations[lang].aboutExpValue;
-  const aboutSiteLabel = document.getElementById('about-site-label');
-  if (aboutSiteLabel) aboutSiteLabel.textContent = translations[lang].aboutSiteLabel;
-  const aboutSiteValue = document.getElementById('about-site-value');
-  if (aboutSiteValue) aboutSiteValue.textContent = translations[lang].aboutSiteValue;
-  const aboutPhoneLabel = document.getElementById('about-phone-label');
-  if (aboutPhoneLabel) aboutPhoneLabel.textContent = translations[lang].aboutPhoneLabel;
-  const aboutPhoneValue = document.getElementById('about-phone-value');
-  if (aboutPhoneValue) aboutPhoneValue.textContent = translations[lang].aboutPhoneValue;
-  const aboutCityLabel = document.getElementById('about-city-label');
-  if (aboutCityLabel) aboutCityLabel.textContent = translations[lang].aboutCityLabel;
-  const aboutCityValue = document.getElementById('about-city-value');
-  if (aboutCityValue) aboutCityValue.textContent = translations[lang].aboutCityValue;
-  const aboutCertifLabel = document.getElementById('about-certif-label');
-  if (aboutCertifLabel) aboutCertifLabel.textContent = translations[lang].aboutCertifLabel;
-  const aboutCertifValue = document.getElementById('about-certif-value');
-  if (aboutCertifValue) aboutCertifValue.textContent = translations[lang].aboutCertifValue;
-  const aboutStudyLabel = document.getElementById('about-study-label');
-  if (aboutStudyLabel) aboutStudyLabel.textContent = translations[lang].aboutStudyLabel;
-  const aboutStudyValue = document.getElementById('about-study-value');
-  if (aboutStudyValue) aboutStudyValue.textContent = translations[lang].aboutStudyValue;
-  const aboutEmailLabel = document.getElementById('about-email-label');
-  if (aboutEmailLabel) aboutEmailLabel.textContent = translations[lang].aboutEmailLabel;
-  const aboutEmailValue = document.getElementById('about-email-value');
-  if (aboutEmailValue) aboutEmailValue.textContent = translations[lang].aboutEmailValue;
-  const aboutFreelanceLabel = document.getElementById('about-freelance-label');
-  if (aboutFreelanceLabel) aboutFreelanceLabel.textContent = translations[lang].aboutFreelanceLabel;
-  const aboutFreelanceValue = document.getElementById('about-freelance-value');
-  if (aboutFreelanceValue) aboutFreelanceValue.textContent = translations[lang].aboutFreelanceValue;
+    const portfolio3Title = document.getElementById('portfolio3-title');
+    if (portfolio3Title) portfolio3Title.textContent = translations[lang].portfolio3Title;
+    const portfolio3Desc = document.getElementById('portfolio3-desc');
+    if (portfolio3Desc) portfolio3Desc.textContent = translations[lang].portfolio3Desc;
+    const portfolio3ObjTitle = document.getElementById('portfolio3-obj-title');
+    if (portfolio3ObjTitle) portfolio3ObjTitle.textContent = translations[lang].portfolio3ObjTitle;
+    const portfolio3Practice = document.getElementById('portfolio3-practice');
+    if (portfolio3Practice) portfolio3Practice.textContent = translations[lang].portfolio3Practice;
+    const portfolio3Pedago = document.getElementById('portfolio3-pedago');
+    if (portfolio3Pedago) portfolio3Pedago.textContent = translations[lang].portfolio3Pedago;
+    const portfolio3Func = document.getElementById('portfolio3-func');
+    if (portfolio3Func) portfolio3Func.textContent = translations[lang].portfolio3Func;
+    const portfolio3TechTitle = document.getElementById('portfolio3-tech-title');
+    if (portfolio3TechTitle) portfolio3TechTitle.textContent = translations[lang].portfolio3TechTitle;
+    const portfolio3Li1 = document.getElementById('portfolio3-li1');
+    if (portfolio3Li1) portfolio3Li1.textContent = translations[lang].portfolio3Li1;
+    const portfolio3Li2 = document.getElementById('portfolio3-li2');
+    if (portfolio3Li2) portfolio3Li2.textContent = translations[lang].portfolio3Li2;
+    const portfolio3Li3 = document.getElementById('portfolio3-li3');
+    if (portfolio3Li3) portfolio3Li3.textContent = translations[lang].portfolio3Li3;
+    const portfolio3Li4 = document.getElementById('portfolio3-li4');
+    if (portfolio3Li4) portfolio3Li4.textContent = translations[lang].portfolio3Li4;
+    const portfolio3Li5 = document.getElementById('portfolio3-li5');
+    if (portfolio3Li5) portfolio3Li5.innerHTML = translations[lang].portfolio3Li5 + '<i class="bx bx-link"></i> : <a href="https://github.com/josuengoma/joschool" class="portfolio-details-lightbox" data-glightbox="type: external" title="Visiter le dépot github" target="_blank" rel="noopener" id="portfolio3-link">' + translations[lang].portfolio3Link + '</a>';
+    // About section details (labels and values)
+    const aboutExpLabel = document.getElementById('about-exp-label');
+    if (aboutExpLabel) aboutExpLabel.textContent = translations[lang].aboutExpLabel;
+    const aboutExpValue = document.getElementById('about-exp-value');
+    if (aboutExpValue) aboutExpValue.textContent = translations[lang].aboutExpValue;
+    const aboutSiteLabel = document.getElementById('about-site-label');
+    if (aboutSiteLabel) aboutSiteLabel.textContent = translations[lang].aboutSiteLabel;
+    const aboutSiteValue = document.getElementById('about-site-value');
+    if (aboutSiteValue) aboutSiteValue.textContent = translations[lang].aboutSiteValue;
+    const aboutPhoneLabel = document.getElementById('about-phone-label');
+    if (aboutPhoneLabel) aboutPhoneLabel.textContent = translations[lang].aboutPhoneLabel;
+    const aboutPhoneValue = document.getElementById('about-phone-value');
+    if (aboutPhoneValue) aboutPhoneValue.textContent = translations[lang].aboutPhoneValue;
+    const aboutCityLabel = document.getElementById('about-city-label');
+    if (aboutCityLabel) aboutCityLabel.textContent = translations[lang].aboutCityLabel;
+    const aboutCityValue = document.getElementById('about-city-value');
+    if (aboutCityValue) aboutCityValue.textContent = translations[lang].aboutCityValue;
+    const aboutCertifLabel = document.getElementById('about-certif-label');
+    if (aboutCertifLabel) aboutCertifLabel.textContent = translations[lang].aboutCertifLabel;
+    const aboutCertifValue = document.getElementById('about-certif-value');
+    if (aboutCertifValue) aboutCertifValue.textContent = translations[lang].aboutCertifValue;
+    const aboutStudyLabel = document.getElementById('about-study-label');
+    if (aboutStudyLabel) aboutStudyLabel.textContent = translations[lang].aboutStudyLabel;
+    const aboutStudyValue = document.getElementById('about-study-value');
+    if (aboutStudyValue) aboutStudyValue.textContent = translations[lang].aboutStudyValue;
+    const aboutEmailLabel = document.getElementById('about-email-label');
+    if (aboutEmailLabel) aboutEmailLabel.textContent = translations[lang].aboutEmailLabel;
+    const aboutEmailValue = document.getElementById('about-email-value');
+    if (aboutEmailValue) aboutEmailValue.textContent = translations[lang].aboutEmailValue;
+    const aboutFreelanceLabel = document.getElementById('about-freelance-label');
+    if (aboutFreelanceLabel) aboutFreelanceLabel.textContent = translations[lang].aboutFreelanceLabel;
+    const aboutFreelanceValue = document.getElementById('about-freelance-value');
+    if (aboutFreelanceValue) aboutFreelanceValue.textContent = translations[lang].aboutFreelanceValue;
     // Hero section
     const name = document.getElementById('name');
     if (name) name.textContent = translations[lang].name;
@@ -658,157 +658,157 @@
       if (translations[lang].nav[idx]) el.textContent = translations[lang].nav[idx];
     });
 
-  // About section
-  const aboutTitle = document.getElementById('about-title');
-  if (aboutTitle) aboutTitle.textContent = translations[lang].aboutTitle;
-  const aboutWho = document.getElementById('about-who');
-  if (aboutWho) aboutWho.textContent = translations[lang].aboutWho;
-  const aboutText = document.getElementById('about-text');
-  if (aboutText) aboutText.textContent = translations[lang].aboutText;
+    // About section
+    const aboutTitle = document.getElementById('about-title');
+    if (aboutTitle) aboutTitle.textContent = translations[lang].aboutTitle;
+    const aboutWho = document.getElementById('about-who');
+    if (aboutWho) aboutWho.textContent = translations[lang].aboutWho;
+    const aboutText = document.getElementById('about-text');
+    if (aboutText) aboutText.textContent = translations[lang].aboutText;
 
-  // Certifications section
-  const certifTitle = document.getElementById('certif-title');
-  if (certifTitle) certifTitle.textContent = translations[lang].certifications;
-  const certifDesc = document.getElementById('certif-desc');
-  if (certifDesc) certifDesc.textContent = translations[lang].certificationsDesc;
+    // Certifications section
+    const certifTitle = document.getElementById('certif-title');
+    if (certifTitle) certifTitle.textContent = translations[lang].certifications;
+    const certifDesc = document.getElementById('certif-desc');
+    if (certifDesc) certifDesc.textContent = translations[lang].certificationsDesc;
 
-  // Diplomas
-  const diplomaMaster = document.getElementById('diploma-master');
-  if (diplomaMaster) diplomaMaster.textContent = translations[lang].diplomaMaster;
-  const diplomaMasterYears = document.getElementById('diploma-master-years');
-  if (diplomaMasterYears) diplomaMasterYears.textContent = translations[lang].diplomaMasterYears;
-  const diplomaMasterSchool = document.getElementById('diploma-master-school');
-  if (diplomaMasterSchool) diplomaMasterSchool.textContent = translations[lang].diplomaMasterSchool;
-  const diplomaLicence = document.getElementById('diploma-licence');
-  if (diplomaLicence) diplomaLicence.textContent = translations[lang].diplomaLicence;
-  const diplomaLicenceYears = document.getElementById('diploma-licence-years');
-  if (diplomaLicenceYears) diplomaLicenceYears.textContent = translations[lang].diplomaLicenceYears;
-  const diplomaLicenceSchool = document.getElementById('diploma-licence-school');
-  if (diplomaLicenceSchool) diplomaLicenceSchool.textContent = translations[lang].diplomaLicenceSchool;
-  const diplomaBac = document.getElementById('diploma-bac');
-  if (diplomaBac) diplomaBac.textContent = translations[lang].diplomaBac;
-  const diplomaBacYears = document.getElementById('diploma-bac-years');
-  if (diplomaBacYears) diplomaBacYears.textContent = translations[lang].diplomaBacYears;
-  const diplomaBacSchool = document.getElementById('diploma-bac-school');
-  if (diplomaBacSchool) diplomaBacSchool.textContent = translations[lang].diplomaBacSchool;
+    // Diplomas
+    const diplomaMaster = document.getElementById('diploma-master');
+    if (diplomaMaster) diplomaMaster.textContent = translations[lang].diplomaMaster;
+    const diplomaMasterYears = document.getElementById('diploma-master-years');
+    if (diplomaMasterYears) diplomaMasterYears.textContent = translations[lang].diplomaMasterYears;
+    const diplomaMasterSchool = document.getElementById('diploma-master-school');
+    if (diplomaMasterSchool) diplomaMasterSchool.textContent = translations[lang].diplomaMasterSchool;
+    const diplomaLicence = document.getElementById('diploma-licence');
+    if (diplomaLicence) diplomaLicence.textContent = translations[lang].diplomaLicence;
+    const diplomaLicenceYears = document.getElementById('diploma-licence-years');
+    if (diplomaLicenceYears) diplomaLicenceYears.textContent = translations[lang].diplomaLicenceYears;
+    const diplomaLicenceSchool = document.getElementById('diploma-licence-school');
+    if (diplomaLicenceSchool) diplomaLicenceSchool.textContent = translations[lang].diplomaLicenceSchool;
+    const diplomaBac = document.getElementById('diploma-bac');
+    if (diplomaBac) diplomaBac.textContent = translations[lang].diplomaBac;
+    const diplomaBacYears = document.getElementById('diploma-bac-years');
+    if (diplomaBacYears) diplomaBacYears.textContent = translations[lang].diplomaBacYears;
+    const diplomaBacSchool = document.getElementById('diploma-bac-school');
+    if (diplomaBacSchool) diplomaBacSchool.textContent = translations[lang].diplomaBacSchool;
 
-  // Experiences
-  const exp1Title = document.getElementById('exp1-title');
-  if (exp1Title) exp1Title.textContent = translations[lang].exp1Title;
-  const exp1Years = document.getElementById('exp1-years');
-  if (exp1Years) exp1Years.textContent = translations[lang].exp1Years;
-  const exp1Company = document.getElementById('exp1-company');
-  if (exp1Company) exp1Company.textContent = translations[lang].exp1Company;
-  const exp1Li1 = document.getElementById('exp1-li1');
-  if (exp1Li1) exp1Li1.textContent = translations[lang].exp1Li1;
-  const exp1Li2 = document.getElementById('exp1-li2');
-  if (exp1Li2) exp1Li2.textContent = translations[lang].exp1Li2;
-  const exp1Li3 = document.getElementById('exp1-li3');
-  if (exp1Li3) exp1Li3.textContent = translations[lang].exp1Li3;
+    // Experiences
+    const exp1Title = document.getElementById('exp1-title');
+    if (exp1Title) exp1Title.textContent = translations[lang].exp1Title;
+    const exp1Years = document.getElementById('exp1-years');
+    if (exp1Years) exp1Years.textContent = translations[lang].exp1Years;
+    const exp1Company = document.getElementById('exp1-company');
+    if (exp1Company) exp1Company.textContent = translations[lang].exp1Company;
+    const exp1Li1 = document.getElementById('exp1-li1');
+    if (exp1Li1) exp1Li1.textContent = translations[lang].exp1Li1;
+    const exp1Li2 = document.getElementById('exp1-li2');
+    if (exp1Li2) exp1Li2.textContent = translations[lang].exp1Li2;
+    const exp1Li3 = document.getElementById('exp1-li3');
+    if (exp1Li3) exp1Li3.textContent = translations[lang].exp1Li3;
 
-  const exp2Title = document.getElementById('exp2-title');
-  if (exp2Title) exp2Title.textContent = translations[lang].exp2Title;
-  const exp2Years = document.getElementById('exp2-years');
-  if (exp2Years) exp2Years.textContent = translations[lang].exp2Years;
-  const exp2Company = document.getElementById('exp2-company');
-  if (exp2Company) exp2Company.textContent = translations[lang].exp2Company;
-  const exp2Li1 = document.getElementById('exp2-li1');
-  if (exp2Li1) exp2Li1.textContent = translations[lang].exp2Li1;
-  const exp2Li2 = document.getElementById('exp2-li2');
-  if (exp2Li2) exp2Li2.textContent = translations[lang].exp2Li2;
-  const exp2Li3 = document.getElementById('exp2-li3');
-  if (exp2Li3) exp2Li3.textContent = translations[lang].exp2Li3;
+    const exp2Title = document.getElementById('exp2-title');
+    if (exp2Title) exp2Title.textContent = translations[lang].exp2Title;
+    const exp2Years = document.getElementById('exp2-years');
+    if (exp2Years) exp2Years.textContent = translations[lang].exp2Years;
+    const exp2Company = document.getElementById('exp2-company');
+    if (exp2Company) exp2Company.textContent = translations[lang].exp2Company;
+    const exp2Li1 = document.getElementById('exp2-li1');
+    if (exp2Li1) exp2Li1.textContent = translations[lang].exp2Li1;
+    const exp2Li2 = document.getElementById('exp2-li2');
+    if (exp2Li2) exp2Li2.textContent = translations[lang].exp2Li2;
+    const exp2Li3 = document.getElementById('exp2-li3');
+    if (exp2Li3) exp2Li3.textContent = translations[lang].exp2Li3;
 
-  const exp3Title = document.getElementById('exp3-title');
-  if (exp3Title) exp3Title.textContent = translations[lang].exp3Title;
-  const exp3Years = document.getElementById('exp3-years');
-  if (exp3Years) exp3Years.textContent = translations[lang].exp3Years;
-  const exp3Company = document.getElementById('exp3-company');
-  if (exp3Company) exp3Company.textContent = translations[lang].exp3Company;
-  const exp3Li1 = document.getElementById('exp3-li1');
-  if (exp3Li1) exp3Li1.textContent = translations[lang].exp3Li1;
-  const exp3Li2 = document.getElementById('exp3-li2');
-  if (exp3Li2) exp3Li2.textContent = translations[lang].exp3Li2;
+    const exp3Title = document.getElementById('exp3-title');
+    if (exp3Title) exp3Title.textContent = translations[lang].exp3Title;
+    const exp3Years = document.getElementById('exp3-years');
+    if (exp3Years) exp3Years.textContent = translations[lang].exp3Years;
+    const exp3Company = document.getElementById('exp3-company');
+    if (exp3Company) exp3Company.textContent = translations[lang].exp3Company;
+    const exp3Li1 = document.getElementById('exp3-li1');
+    if (exp3Li1) exp3Li1.textContent = translations[lang].exp3Li1;
+    const exp3Li2 = document.getElementById('exp3-li2');
+    if (exp3Li2) exp3Li2.textContent = translations[lang].exp3Li2;
 
-  const exp4Title = document.getElementById('exp4-title');
-  if (exp4Title) exp4Title.textContent = translations[lang].exp4Title;
-  const exp4Years = document.getElementById('exp4-years');
-  if (exp4Years) exp4Years.textContent = translations[lang].exp4Years;
-  const exp4Company = document.getElementById('exp4-company');
-  if (exp4Company) exp4Company.textContent = translations[lang].exp4Company;
-  const exp4Li1 = document.getElementById('exp4-li1');
-  if (exp4Li1) exp4Li1.textContent = translations[lang].exp4Li1;
-  const exp4Li2 = document.getElementById('exp4-li2');
-  if (exp4Li2) exp4Li2.textContent = translations[lang].exp4Li2;
-  const exp4Li3 = document.getElementById('exp4-li3');
-  if (exp4Li3) exp4Li3.textContent = translations[lang].exp4Li3;
-  const exp4Li4 = document.getElementById('exp4-li4');
-  if (exp4Li4) exp4Li4.textContent = translations[lang].exp4Li4;
+    const exp4Title = document.getElementById('exp4-title');
+    if (exp4Title) exp4Title.textContent = translations[lang].exp4Title;
+    const exp4Years = document.getElementById('exp4-years');
+    if (exp4Years) exp4Years.textContent = translations[lang].exp4Years;
+    const exp4Company = document.getElementById('exp4-company');
+    if (exp4Company) exp4Company.textContent = translations[lang].exp4Company;
+    const exp4Li1 = document.getElementById('exp4-li1');
+    if (exp4Li1) exp4Li1.textContent = translations[lang].exp4Li1;
+    const exp4Li2 = document.getElementById('exp4-li2');
+    if (exp4Li2) exp4Li2.textContent = translations[lang].exp4Li2;
+    const exp4Li3 = document.getElementById('exp4-li3');
+    if (exp4Li3) exp4Li3.textContent = translations[lang].exp4Li3;
+    const exp4Li4 = document.getElementById('exp4-li4');
+    if (exp4Li4) exp4Li4.textContent = translations[lang].exp4Li4;
 
-  const exp5Title = document.getElementById('exp5-title');
-  if (exp5Title) exp5Title.textContent = translations[lang].exp5Title;
-  const exp5Years = document.getElementById('exp5-years');
-  if (exp5Years) exp5Years.textContent = translations[lang].exp5Years;
-  const exp5Company = document.getElementById('exp5-company');
-  if (exp5Company) exp5Company.textContent = translations[lang].exp5Company;
-  const exp5Li1 = document.getElementById('exp5-li1');
-  if (exp5Li1) exp5Li1.textContent = translations[lang].exp5Li1;
-  const exp5Li2 = document.getElementById('exp5-li2');
-  if (exp5Li2) exp5Li2.textContent = translations[lang].exp5Li2;
+    const exp5Title = document.getElementById('exp5-title');
+    if (exp5Title) exp5Title.textContent = translations[lang].exp5Title;
+    const exp5Years = document.getElementById('exp5-years');
+    if (exp5Years) exp5Years.textContent = translations[lang].exp5Years;
+    const exp5Company = document.getElementById('exp5-company');
+    if (exp5Company) exp5Company.textContent = translations[lang].exp5Company;
+    const exp5Li1 = document.getElementById('exp5-li1');
+    if (exp5Li1) exp5Li1.textContent = translations[lang].exp5Li1;
+    const exp5Li2 = document.getElementById('exp5-li2');
+    if (exp5Li2) exp5Li2.textContent = translations[lang].exp5Li2;
 
-  // Skills section
-  const skillsTitle = document.getElementById('skills-title');
-  if (skillsTitle) skillsTitle.textContent = translations[lang].skillsTitle;
-  const frontendTitle = document.getElementById('frontend-title');
-  if (frontendTitle) frontendTitle.textContent = translations[lang].frontendTitle;
-  const backendTitle = document.getElementById('backend-title');
-  if (backendTitle) backendTitle.textContent = translations[lang].backendTitle;
-  const devopsTitle = document.getElementById('devops-title');
-  if (devopsTitle) devopsTitle.textContent = translations[lang].devopsTitle;
+    // Skills section
+    const skillsTitle = document.getElementById('skills-title');
+    if (skillsTitle) skillsTitle.textContent = translations[lang].skillsTitle;
+    const frontendTitle = document.getElementById('frontend-title');
+    if (frontendTitle) frontendTitle.textContent = translations[lang].frontendTitle;
+    const backendTitle = document.getElementById('backend-title');
+    if (backendTitle) backendTitle.textContent = translations[lang].backendTitle;
+    const devopsTitle = document.getElementById('devops-title');
+    if (devopsTitle) devopsTitle.textContent = translations[lang].devopsTitle;
 
-  // Resume section
-  const resumeTitle = document.getElementById('resume-title');
-  if (resumeTitle) resumeTitle.textContent = translations[lang].resumeTitle;
-  const resumeDesc = document.getElementById('resume-desc');
-  if (resumeDesc) resumeDesc.textContent = translations[lang].resumeDesc;
-  const educationTitle = document.getElementById('education-title');
-  if (educationTitle) educationTitle.textContent = translations[lang].educationTitle;
-  const expTitle = document.getElementById('exp-title');
-  if (expTitle) expTitle.textContent = translations[lang].expTitle;
+    // Resume section
+    const resumeTitle = document.getElementById('resume-title');
+    if (resumeTitle) resumeTitle.textContent = translations[lang].resumeTitle;
+    const resumeDesc = document.getElementById('resume-desc');
+    if (resumeDesc) resumeDesc.textContent = translations[lang].resumeDesc;
+    const educationTitle = document.getElementById('education-title');
+    if (educationTitle) educationTitle.textContent = translations[lang].educationTitle;
+    const expTitle = document.getElementById('exp-title');
+    if (expTitle) expTitle.textContent = translations[lang].expTitle;
 
-  // Portfolio section
-  const portfolioTitle = document.getElementById('portfolio-title');
-  if (portfolioTitle) portfolioTitle.textContent = translations[lang].portfolioTitle;
-  const portfolioDesc = document.getElementById('portfolio-desc');
-  if (portfolioDesc) portfolioDesc.textContent = translations[lang].portfolioDesc;
+    // Portfolio section
+    const portfolioTitle = document.getElementById('portfolio-title');
+    if (portfolioTitle) portfolioTitle.textContent = translations[lang].portfolioTitle;
+    const portfolioDesc = document.getElementById('portfolio-desc');
+    if (portfolioDesc) portfolioDesc.textContent = translations[lang].portfolioDesc;
 
-  // Services section
-  const servicesTitle = document.getElementById('services-title');
-  if (servicesTitle) servicesTitle.textContent = translations[lang].servicesTitle;
-  const servicesDesc = document.getElementById('services-desc');
-  if (servicesDesc) servicesDesc.textContent = translations[lang].servicesDesc;
-  const service1Title = document.getElementById('service1-title');
-  if (service1Title) service1Title.textContent = translations[lang].service1Title;
-  const service1Desc = document.getElementById('service1-desc');
-  if (service1Desc) service1Desc.textContent = translations[lang].service1Desc;
-  const service2Title = document.getElementById('service2-title');
-  if (service2Title) service2Title.textContent = translations[lang].service2Title;
-  const service2Desc = document.getElementById('service2-desc');
-  if (service2Desc) service2Desc.textContent = translations[lang].service2Desc;
-  const service3Title = document.getElementById('service3-title');
-  if (service3Title) service3Title.textContent = translations[lang].service3Title;
-  const service3Desc = document.getElementById('service3-desc');
-  if (service3Desc) service3Desc.textContent = translations[lang].service3Desc;
-  const service4Title = document.getElementById('service4-title');
-  if (service4Title) service4Title.textContent = translations[lang].service4Title;
-  const service4Desc = document.getElementById('service4-desc');
-  if (service4Desc) service4Desc.textContent = translations[lang].service4Desc;
+    // Services section
+    const servicesTitle = document.getElementById('services-title');
+    if (servicesTitle) servicesTitle.textContent = translations[lang].servicesTitle;
+    const servicesDesc = document.getElementById('services-desc');
+    if (servicesDesc) servicesDesc.textContent = translations[lang].servicesDesc;
+    const service1Title = document.getElementById('service1-title');
+    if (service1Title) service1Title.textContent = translations[lang].service1Title;
+    const service1Desc = document.getElementById('service1-desc');
+    if (service1Desc) service1Desc.textContent = translations[lang].service1Desc;
+    const service2Title = document.getElementById('service2-title');
+    if (service2Title) service2Title.textContent = translations[lang].service2Title;
+    const service2Desc = document.getElementById('service2-desc');
+    if (service2Desc) service2Desc.textContent = translations[lang].service2Desc;
+    const service3Title = document.getElementById('service3-title');
+    if (service3Title) service3Title.textContent = translations[lang].service3Title;
+    const service3Desc = document.getElementById('service3-desc');
+    if (service3Desc) service3Desc.textContent = translations[lang].service3Desc;
+    const service4Title = document.getElementById('service4-title');
+    if (service4Title) service4Title.textContent = translations[lang].service4Title;
+    const service4Desc = document.getElementById('service4-desc');
+    if (service4Desc) service4Desc.textContent = translations[lang].service4Desc;
 
-  // Footer
-  const footerName = document.getElementById('footer-name');
-  if (footerName) footerName.textContent = translations[lang].footerName;
-  const footerJob = document.getElementById('footer-job');
-  if (footerJob) footerJob.textContent = translations[lang].footerJob;
+    // Footer
+    const footerName = document.getElementById('footer-name');
+    if (footerName) footerName.textContent = translations[lang].footerName;
+    const footerJob = document.getElementById('footer-job');
+    if (footerJob) footerJob.textContent = translations[lang].footerJob;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
