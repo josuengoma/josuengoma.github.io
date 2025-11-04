@@ -653,6 +653,13 @@ section {
   display: block;
 }
 
+.portfolio .component img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-right: 15px;
+}
 
 /*--------------------------------------------------------------
 # Services
