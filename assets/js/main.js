@@ -261,7 +261,7 @@
     fr: {
       copyright: "Tous droits reservés",
       // Portfolio section
-      portfolio1Title: "Graden",
+      portfolio1Title: "Anacad-Tech",
       portfolio1Desc: "Application de gestion des évaluations des professeurs d'une université (UCC). ",
       portfolio1IndicTitle: "Indicateurs de performance",
       portfolio1Perf: "Performance",
@@ -300,6 +300,26 @@
       portfolio3Li4: "▸ Gestion personnel administratif ",
       portfolio3Li5: "▸ ",
       portfolio3Link: "Cliquer ici ",
+      // Masomo-App (portfolio4)
+      portfolio4Title: "Masomo-App",
+      portfolio4Desc: "Application de gestion d'une école primaire.",
+      portfolio4IndicTitle: "Indicateurs de performance",
+      portfolio4Perf: "Performance",
+      portfolio4Access: "Accessibilité",
+      portfolio4Seo: "Référencement",
+      portfolio4TechTitle: "Implémentation technique",
+      portfolio4Li1: "▸ Tableau de bord synthétique",
+      portfolio4Li2: "▸ Gestion des élèves, enseignants, classes",
+      portfolio4Li3: "▸ Emploi du temps interactif",
+      portfolio4Li4: "▸ Suivi des paiements et factures",
+      portfolio4Li5: "▸ Notes & évaluations (saisie, calcul, export)",
+      portfolio4Li6: "▸ Présences/absences (import/export, stats)",
+      portfolio4Li7: "▸ Communication interne (fil de discussion)",
+      portfolio4Li8: "▸ Gestion documentaire (upload, filtres, actions groupées)",
+      portfolio4Li9: "▸ Bulletins (grille, calculs, modèles, export Excel/PDF)",
+      portfolio4Li10: "▸ Paramètres (personnalisation, gestion utilisateurs)",
+      portfolio4Li11: "▸ ",
+      portfolio4Link: "Cliquer ici",
       // About section details
       aboutExpLabel: "Expérience:",
       aboutExpValue: "6 ans",
@@ -397,7 +417,7 @@
     en: {
       copyright: "All rights reserved",
       // Portfolio section
-      portfolio1Title: "Graden",
+      portfolio1Title: "Anacad-Tech",
       portfolio1Desc: "Teacher evaluation management application for a university (UCC).",
       portfolio1IndicTitle: "Performance Indicators",
       portfolio1Perf: "Performance",
@@ -436,6 +456,26 @@
       portfolio3Li4: "▸ Administrative staff management",
       portfolio3Li5: "▸ ",
       portfolio3Link: "Click here ",
+      // Masomo-App (portfolio4)
+      portfolio4Title: "Masomo-App",
+      portfolio4Desc: "Primary school management application.",
+      portfolio4IndicTitle: "Performance Indicators",
+      portfolio4Perf: "Performance",
+      portfolio4Access: "Accessibility",
+      portfolio4Seo: "SEO",
+      portfolio4TechTitle: "Technical Implementation",
+      portfolio4Li1: "▸ Dashboard overview",
+      portfolio4Li2: "▸ Management of students, teachers, classes",
+      portfolio4Li3: "▸ Interactive timetable",
+      portfolio4Li4: "▸ Payment and invoice tracking",
+      portfolio4Li5: "▸ Marks & evaluations (entry, calculations, export)",
+      portfolio4Li6: "▸ Attendance (import/export, stats)",
+      portfolio4Li7: "▸ Internal communication (discussion feed)",
+      portfolio4Li8: "▸ Document management (upload, filters, bulk actions)",
+      portfolio4Li9: "▸ Report cards (grid, calculations, templates, export Excel/PDF)",
+      portfolio4Li10: "▸ Settings (customization, user management)",
+      portfolio4Li11: "▸ ",
+      portfolio4Link: "Click here",
       // About section details
       aboutExpLabel: "Experience:",
       aboutExpValue: "6 years",
@@ -613,6 +653,44 @@
     if (portfolio3Li4) portfolio3Li4.textContent = translations[lang].portfolio3Li4;
     const portfolio3Li5 = document.getElementById('portfolio3-li5');
     if (portfolio3Li5) portfolio3Li5.innerHTML = translations[lang].portfolio3Li5 + '<i class="bx bx-link"></i> : <a href="https://github.com/josuengoma/joschool" class="portfolio-details-lightbox" data-glightbox="type: external" title="Visiter le dépot github" target="_blank" rel="noopener" id="portfolio3-link">' + translations[lang].portfolio3Link + '</a>';
+
+    // Masomo-App (portfolio4)
+    const portfolio4Title = document.getElementById('portfolio4-title');
+    if (portfolio4Title) portfolio4Title.textContent = translations[lang].portfolio4Title;
+    const portfolio4Desc = document.getElementById('portfolio4-desc');
+    if (portfolio4Desc) portfolio4Desc.textContent = translations[lang].portfolio4Desc;
+    const portfolio4IndicTitle = document.getElementById('portfolio4-indic-title');
+    if (portfolio4IndicTitle) portfolio4IndicTitle.textContent = translations[lang].portfolio4IndicTitle;
+    const portfolio4Perf = document.getElementById('portfolio4-perf');
+    if (portfolio4Perf) portfolio4Perf.textContent = translations[lang].portfolio4Perf;
+    const portfolio4Access = document.getElementById('portfolio4-access');
+    if (portfolio4Access) portfolio4Access.textContent = translations[lang].portfolio4Access;
+    const portfolio4Seo = document.getElementById('portfolio4-seo');
+    if (portfolio4Seo) portfolio4Seo.textContent = translations[lang].portfolio4Seo;
+    const portfolio4TechTitle = document.getElementById('portfolio4-tech-title');
+    if (portfolio4TechTitle) portfolio4TechTitle.textContent = translations[lang].portfolio4TechTitle;
+    const portfolio4Li1 = document.getElementById('portfolio4-li1');
+    if (portfolio4Li1) portfolio4Li1.textContent = translations[lang].portfolio4Li1;
+    const portfolio4Li2 = document.getElementById('portfolio4-li2');
+    if (portfolio4Li2) portfolio4Li2.textContent = translations[lang].portfolio4Li2;
+    const portfolio4Li3 = document.getElementById('portfolio4-li3');
+    if (portfolio4Li3) portfolio4Li3.textContent = translations[lang].portfolio4Li3;
+    const portfolio4Li4 = document.getElementById('portfolio4-li4');
+    if (portfolio4Li4) portfolio4Li4.textContent = translations[lang].portfolio4Li4;
+    const portfolio4Li5 = document.getElementById('portfolio4-li5');
+    if (portfolio4Li5) portfolio4Li5.textContent = translations[lang].portfolio4Li5;
+    const portfolio4Li6 = document.getElementById('portfolio4-li6');
+    if (portfolio4Li6) portfolio4Li6.textContent = translations[lang].portfolio4Li6;
+    const portfolio4Li7 = document.getElementById('portfolio4-li7');
+    if (portfolio4Li7) portfolio4Li7.textContent = translations[lang].portfolio4Li7;
+    const portfolio4Li8 = document.getElementById('portfolio4-li8');
+    if (portfolio4Li8) portfolio4Li8.textContent = translations[lang].portfolio4Li8;
+    const portfolio4Li9 = document.getElementById('portfolio4-li9');
+    if (portfolio4Li9) portfolio4Li9.textContent = translations[lang].portfolio4Li9;
+    const portfolio4Li10 = document.getElementById('portfolio4-li10');
+    if (portfolio4Li10) portfolio4Li10.textContent = translations[lang].portfolio4Li10;
+    const portfolio4Li11 = document.getElementById('portfolio4-li11');
+    if (portfolio4Li11) portfolio4Li11.innerHTML = translations[lang].portfolio4Li11 + '<i class="bx bx-link"></i> : <a href="https://anacad.tech/public/" title="Visiter l\'application" target="_blank" rel="noopener" id="portfolio4-link">' + translations[lang].portfolio4Link + '</a>';
     // About section details (labels and values)
     const aboutExpLabel = document.getElementById('about-exp-label');
     if (aboutExpLabel) aboutExpLabel.textContent = translations[lang].aboutExpLabel;
