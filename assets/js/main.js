@@ -690,7 +690,7 @@
     const portfolio4Li10 = document.getElementById('portfolio4-li10');
     if (portfolio4Li10) portfolio4Li10.textContent = translations[lang].portfolio4Li10;
     const portfolio4Li11 = document.getElementById('portfolio4-li11');
-    if (portfolio4Li11) portfolio4Li11.innerHTML = translations[lang].portfolio4Li11 + '<i class="bx bx-link"></i> : <a href="https://anacad.tech/public/" title="Visiter l\'application" target="_blank" rel="noopener" id="portfolio4-link">' + translations[lang].portfolio4Link + '</a>';
+    if (portfolio4Li11) portfolio4Li11.innerHTML = translations[lang].portfolio4Li11 + '<i class="bx bx-link"></i> : <a href="https://masomo-app-eta.vercel.app/" title="Visiter l\'application" target="_blank" rel="noopener" id="portfolio4-link">' + translations[lang].portfolio4Link + '</a>';
     // About section details (labels and values)
     const aboutExpLabel = document.getElementById('about-exp-label');
     if (aboutExpLabel) aboutExpLabel.textContent = translations[lang].aboutExpLabel;
