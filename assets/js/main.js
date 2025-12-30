@@ -904,6 +904,7 @@
     if (btnFr && btnEn) {
       btnFr.addEventListener('click', function () {
         setLanguage('fr');
+        localStorage.setItem('lang', 'fr');
         btnFr.classList.add('btn-primary');
         btnFr.classList.remove('btn-secondary');
         btnEn.classList.remove('btn-primary');
@@ -911,17 +912,37 @@
       });
       btnEn.addEventListener('click', function () {
         setLanguage('en');
+        localStorage.setItem('lang', 'en');
         btnEn.classList.add('btn-primary');
         btnEn.classList.remove('btn-secondary');
         btnFr.classList.remove('btn-primary');
         btnFr.classList.add('btn-secondary');
       });
-      // Set default language on load to French and update button states
-      setLanguage('fr');
-      btnFr.classList.add('btn-primary');
-      btnFr.classList.remove('btn-secondary');
-      btnEn.classList.remove('btn-primary');
-      btnEn.classList.add('btn-secondary');
+
+      // Determine initial language: localStorage -> navigator -> default 'fr'
+      const savedLang = localStorage.getItem('lang');
+      let initialLang = 'fr';
+      if (savedLang === 'fr' || savedLang === 'en') {
+        initialLang = savedLang;
+      } else {
+        const nav = (navigator.language || navigator.userLanguage || '').toLowerCase();
+        if (nav.startsWith('en')) initialLang = 'en';
+        else if (nav.startsWith('fr')) initialLang = 'fr';
+        else initialLang = 'fr';
+      }
+
+      setLanguage(initialLang);
+      if (initialLang === 'fr') {
+        btnFr.classList.add('btn-primary');
+        btnFr.classList.remove('btn-secondary');
+        btnEn.classList.remove('btn-primary');
+        btnEn.classList.add('btn-secondary');
+      } else {
+        btnEn.classList.add('btn-primary');
+        btnEn.classList.remove('btn-secondary');
+        btnFr.classList.remove('btn-primary');
+        btnFr.classList.add('btn-secondary');
+      }
     }
   });
 
