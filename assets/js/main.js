@@ -342,7 +342,7 @@
       nav: ["Accueil", "A propos", "Parcours", "Portfolio", "Services", "Contact"],
       aboutTitle: "A propos",
       aboutWho: "Qui suis-je ?",
-      aboutText: `Ingénieur logiciel avec plus de 5 années d'expérience dans le\n              développement web full-stack, la modélisation de bases de données (SQL, MySQL,\n              PostgreSQL, MongoDB) et l'intégration de frameworks comme Django et Laravel.\n              Je suis également compétent en DevOps (Git, Docker, Ansible, Kubernetes,\n              Jenkins) et capable de former des équipes aux dernières technologies web. Je suis\n              un professionnel polyvalent, axé sur la résolution de problèmes et la création de\n              solutions robustes et efficaces.`,
+      aboutText: `Ingénieur logiciel avec plus de {years} années d'expérience dans le\n              développement web full-stack, la modélisation de bases de données (SQL, MySQL,\n              PostgreSQL, MongoDB) et l'intégration de frameworks comme Django et Laravel.\n              Je suis également compétent en DevOps (Git, Docker, Ansible, Kubernetes,\n              Jenkins) et capable de former des équipes aux dernières technologies web. Je suis\n              un professionnel polyvalent, axé sur la résolution de problèmes et la création de\n              solutions robustes et efficaces.`,
       certifications: "Certifications et badges",
       certificationsDesc: "Mes Certifications et Badges internationales",
       skillsTitle: "Compétences",
@@ -498,7 +498,7 @@
       nav: ["Home", "About", "Resume", "Portfolio", "Services", "Contact"],
       aboutTitle: "About",
       aboutWho: "Who am I?",
-      aboutText: `software engineer with over 5 years of experience in\n              full-stack web development, database modeling (SQL, MySQL,\n              PostgreSQL, MongoDB), and integrating frameworks like Django and Laravel.\n              I am also skilled in DevOps (Git, Docker, Ansible, Kubernetes,\n              Jenkins) and able to train teams on the latest web technologies. I am\n              a versatile professional focused on problem-solving and creating\n              robust and efficient solutions.`,
+      aboutText: `software engineer with over {years} years of experience in\n              full-stack web development, database modeling (SQL, MySQL,\n              PostgreSQL, MongoDB), and integrating frameworks like Django and Laravel.\n              I am also skilled in DevOps (Git, Docker, Ansible, Kubernetes,\n              Jenkins) and able to train teams on the latest web technologies. I am\n              a versatile professional focused on problem-solving and creating\n              robust and efficient solutions.`,
       certifications: "Certifications & Badges",
       certificationsDesc: "My International Certifications and Badges",
       skillsTitle: "Skills",
@@ -692,10 +692,15 @@
     const portfolio4Li11 = document.getElementById('portfolio4-li11');
     if (portfolio4Li11) portfolio4Li11.innerHTML = translations[lang].portfolio4Li11 + '<i class="bx bx-link"></i> : <a href="https://masomo-app-eta.vercel.app/" title="Visiter l\'application" target="_blank" rel="noopener" id="portfolio4-link">' + translations[lang].portfolio4Link + '</a>';
     // About section details (labels and values)
+    // compute dynamic experience years
+    const startYear = 2019;
+    const currentYear = new Date().getFullYear();
+    const experience = currentYear - startYear;
+
     const aboutExpLabel = document.getElementById('about-exp-label');
     if (aboutExpLabel) aboutExpLabel.textContent = translations[lang].aboutExpLabel;
     const aboutExpValue = document.getElementById('about-exp-value');
-    if (aboutExpValue) aboutExpValue.textContent = translations[lang].aboutExpValue;
+    if (aboutExpValue) aboutExpValue.textContent = (lang === 'fr') ? `${experience} ans` : `${experience} years`;
     const aboutSiteLabel = document.getElementById('about-site-label');
     if (aboutSiteLabel) aboutSiteLabel.textContent = translations[lang].aboutSiteLabel;
     const aboutSiteValue = document.getElementById('about-site-value');
@@ -742,7 +747,11 @@
     const aboutWho = document.getElementById('about-who');
     if (aboutWho) aboutWho.textContent = translations[lang].aboutWho;
     const aboutText = document.getElementById('about-text');
-    if (aboutText) aboutText.textContent = translations[lang].aboutText;
+    if (aboutText) {
+      // inject the computed years into the about text and keep the exp-years span
+      const html = translations[lang].aboutText.replace('{years}', '<span id="exp-years">' + experience + '</span>');
+      aboutText.innerHTML = html;
+    }
 
     // Certifications section
     const certifTitle = document.getElementById('certif-title');
@@ -907,6 +916,12 @@
         btnFr.classList.remove('btn-primary');
         btnFr.classList.add('btn-secondary');
       });
+      // Set default language on load to French and update button states
+      setLanguage('fr');
+      btnFr.classList.add('btn-primary');
+      btnFr.classList.remove('btn-secondary');
+      btnEn.classList.remove('btn-primary');
+      btnEn.classList.add('btn-secondary');
     }
   });
 

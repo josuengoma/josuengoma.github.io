@@ -115,7 +115,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3 id="about-who">Qui suis-je ?</h3>
             <p class="fst-italic" id="about-text">
-              Ingénieur logiciel avec plus de 5 années d'expérience dans le
+              Ingénieur logiciel avec plus de <span id="exp-years"></span> années d'expérience dans le
               développement web full-stack, la modélisation de bases de données (SQL, MySQL,
               PostgreSQL, MongoDB) et l'intégration de frameworks comme Django et Laravel.
               Je suis également compétent en DevOps (Git, Docker, Ansible, Kubernetes,
@@ -127,7 +127,7 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong id="about-exp-label">Expérience:</strong> <span
-                      id="about-exp-value">6 ans</span></li>
+                      id="about-exp-value"></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong id="about-site-label">Site web:</strong> <span
                       id="about-site-value">josuengoma.github.io </span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong id="about-phone-label">Téléphone:</strong> <span
@@ -845,6 +845,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Dynamic experience is handled in assets/js/main.js -->
+
+
 
   <!-- Pagination for certifications -->
   <script>
