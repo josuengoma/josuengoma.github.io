@@ -342,7 +342,7 @@
       nav: ["Accueil", "A propos", "Parcours", "Portfolio", "Services", "Contact"],
       aboutTitle: "A propos",
       aboutWho: "Qui suis-je ?",
-      aboutText: `Ingénieur logiciel avec plus de {years} années d'expérience dans le\n              développement web full-stack, la modélisation de bases de données (SQL, MySQL,\n              PostgreSQL, MongoDB) et l'intégration de frameworks comme Django et Laravel.\n              Je suis également compétent en DevOps (Git, Docker, Ansible, Kubernetes,\n              Jenkins) et capable de former des équipes aux dernières technologies web. Je suis\n              un professionnel polyvalent, axé sur la résolution de problèmes et la création de\n              solutions robustes et efficaces.`,
+      aboutText: `Ingénieur logiciel | Développeur web full-stack avec plus de {years} années d'expérience dans le\n              développement web full-stack, la modélisation de bases de données (SQL, MySQL,\n              PostgreSQL, MongoDB) et l'intégration de frameworks comme Django et Laravel.\n              Je suis également compétent en DevOps (Git, Docker, Ansible, Kubernetes,\n              Jenkins) et capable de former des équipes aux dernières technologies web. Je suis\n              un professionnel polyvalent, axé sur la résolution de problèmes et la création de\n              solutions robustes et efficaces.`,
       certifications: "Certifications et badges",
       certificationsDesc: "Mes Certifications et Badges internationales",
       skillsTitle: "Compétences",
@@ -478,7 +478,7 @@
       portfolio4Link: "Click here",
       // About section details
       aboutExpLabel: "Experience:",
-      aboutExpValue: "6 years",
+      aboutExpValue: "8 years",
       aboutSiteLabel: "Website:",
       aboutSiteValue: "josuengoma.github.io",
       aboutPhoneLabel: "Phone:",
