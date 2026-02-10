@@ -302,7 +302,7 @@
       portfolio3Link: "Cliquer ici ",
       // Masomo-App (portfolio4)
       portfolio4Title: "Masomo-App",
-      portfolio4Desc: "Application de gestion d'une école primaire.",
+      portfolio4Desc: "Application SaaS de gestion d'une école primaire.",
       portfolio4IndicTitle: "Indicateurs de performance",
       portfolio4Perf: "Performance",
       portfolio4Access: "Accessibilité",
@@ -322,7 +322,7 @@
       portfolio4Link: "Cliquer ici",
       // About section details
       aboutExpLabel: "Expérience:",
-      aboutExpValue: "6 ans",
+      aboutExpValue: "8 ans",
       aboutSiteLabel: "Site web:",
       aboutSiteValue: "josuengoma.github.io",
       aboutPhoneLabel: "Téléphone:",
@@ -693,7 +693,7 @@
     if (portfolio4Li11) portfolio4Li11.innerHTML = translations[lang].portfolio4Li11 + '<i class="bx bx-link"></i> : <a href="https://masomo-app-eta.vercel.app/" title="Visiter l\'application" target="_blank" rel="noopener" id="portfolio4-link">' + translations[lang].portfolio4Link + '</a>';
     // About section details (labels and values)
     // compute dynamic experience years
-    const startYear = 2019;
+    const startYear = 2018;
     const currentYear = new Date().getFullYear();
     const experience = currentYear - startYear;
 
